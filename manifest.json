@@ -1,0 +1,18 @@
+{
+  "name": "hull-ship-boilerplate",
+  "version": "0.0.2",
+  "description": "A Simple boilerplate for Hull Ships",
+  "main": "index.html",
+  "keywords": [ "demo" ],
+  "settings" : [
+    {
+      "name" : "main_color",
+      "title" : "Main Color",
+      "description" : "Main text color for the fun !",
+      "type" : "string",
+      "format" : "color",
+      "default" : "red"
+    }
+  ],
+  "locales": ["en"]
+}

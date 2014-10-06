@@ -1,0 +1,19 @@
+<html>
+
+  <head>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="//d3f5pyioow99x0.cloudfront.net/0.8/hull.js"></script>
+    <script>Hull.init({ appId: "{{config.appId}}", orgUrl: "{{config.orgUrl}}" });</script>
+  </head>
+
+  <body>
+    <h1>{{ship.name}}</h1>
+    <div data-hull-component="login/profile@hull">
+      Loading...
+    </div>
+    <hr />
+    <h2>Ship</h2>
+  </body>
+
+</html>
