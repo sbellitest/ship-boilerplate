@@ -12,6 +12,13 @@
       "type" : "string",
       "format" : "color",
       "default" : "red"
+    },
+    {
+      "name" : "background_image",
+      "title" : "Background Image",
+      "description" : "A Background image for those who like it !",
+      "type" : "string",
+      "format" : "upload"
     }
   ],
   "locales": ["en"]
